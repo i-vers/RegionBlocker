@@ -21,13 +21,3 @@ if (Country == "RU"){ // Change "RU" (Russia) to any Country Code.
     */
     console.log("Stand with Ukraine!")
 }
-
-// If false, prints an legal notice into console.
-// When you track IP's there has to be a warning, so please do not remove/modify the text in any way.
-else{
-    // This is placed here for legal reasons. You can modify the sizes but do not change the text.
-    console.group("%cRegionLocker", "font-size:50px; color: red; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
-    console.log("%cThis site uses RegionLocker. A tool used to block spesific regions from visiting your site.", "font-size: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
-    console.groupEnd;
-    }
-}
